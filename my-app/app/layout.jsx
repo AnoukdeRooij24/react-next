@@ -1,3 +1,5 @@
+import Header from '../components/header'
+
 export default function DashboardLayout({ children }) {
   return (
     <html lang="en">
@@ -5,6 +7,7 @@ export default function DashboardLayout({ children }) {
         <title>react/next test</title>
       </head>
       <body>
+        <header> <Header/> </header>
         <main>{children}</main>
       </body>
     </html>
